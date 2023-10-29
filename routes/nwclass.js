@@ -1,0 +1,9 @@
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/nwclass', function(req, res, next) {
+  res.render('nwclass', { title: 'Search Results NuclearWarheads' });
+});
+
+module.exports = router;
